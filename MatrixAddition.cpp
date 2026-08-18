@@ -12,9 +12,9 @@ Matrix readMatrix(int rows, int cols){
 }
 void displayMatrix(const Matrix& m){
     std::cout<<"resultant matrix is :\n";
-    for (const auto& row : m) {
+    for (const auto& row : m){
         std::cout<<"\n";
-        for (int val:row) {
+        for (int val:row){
             std::cout<<val<< " ";
         }
     }
